@@ -8,6 +8,7 @@ A beginner Python project that performs basic calculations.
 * Subtraction
 * Multiplication
 * Division
+* Rounds digits to 3 decimal places
 * Simple command-line interface
 
 ## Purpose
