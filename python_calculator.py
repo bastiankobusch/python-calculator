@@ -2,7 +2,7 @@ import os
 import yaml
 
 #Functiong defining and translation variable import
-def simple_calculator(transl):  
+def simple_calculator(transl):
     #Initiating loop
     while True:
 
@@ -59,12 +59,11 @@ while language_choice not in ['DE', 'EN']:
 
 #Translation choice german    
 project_path = os.path.dirname(os.path.abspath(__file__))
-print(project_path)
 if language_choice == 'DE':
     with open(project_path + "\\DE.yaml",encoding="utf-8") as file:
         translations = yaml.safe_load(file)
 
-#Translation choice german    
+#Translation choice english    
 if language_choice == 'EN':
     with open(project_path + "\\EN.yaml",encoding="utf-8") as file:
         translations = yaml.safe_load(file)
