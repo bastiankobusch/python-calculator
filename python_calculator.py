@@ -37,7 +37,7 @@ def simple_calculator(transl):
         #Print 
         print("\n" + str(round(result, 3)))
 
-        #Exit choic
+        #Exit choice
         choice = input(transl['input_choice'])
         if choice == "1":
             break
